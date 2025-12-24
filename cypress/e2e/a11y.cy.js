@@ -13,7 +13,7 @@ describe("Axe Test all pages", () => {
 
         cy.visit("http://localhost:5173" + page);
         cy.injectAxe();
-        cy.checkA11y();
+        cy.checkA11yWithUi();
       });
     });
   });

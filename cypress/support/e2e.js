@@ -13,6 +13,11 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
-// Import commands.js using ES2015 syntax:
 import "./commands";
 import "cypress-axe";
+
+import { printAccessibilityViolations } from "./axe";
+
+Cypress.Commands.add("checkA11yWithUi", (context, options) => {
+  cy.checkA11y(context, options, printAccessibilityViolations);
+});
