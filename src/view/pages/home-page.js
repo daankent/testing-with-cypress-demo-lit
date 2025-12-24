@@ -1,3 +1,5 @@
+import "../components/page-title";
+
 import { LitElement, css, html } from "lit";
 
 export class HomePage extends LitElement {
@@ -13,7 +15,7 @@ export class HomePage extends LitElement {
 
   render() {
     return html`<main>
-      <h1>Welkom bij Daan's koekenbakkerij</h1>
+      <page-title>Welkom bij Daan's koekenbakkerij</page-title>
     </main> `;
   }
 }
