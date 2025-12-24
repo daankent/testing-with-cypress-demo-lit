@@ -1,5 +1,6 @@
 import "../components/page-title";
 import "../components/product-list";
+import "../components/news-letter";
 
 import { LitElement, css, html } from "lit";
 
@@ -25,6 +26,8 @@ export class HomePage extends LitElement {
       <p>Onze best verkopende koeken</p>
       <a href="/koeken">Bekijk alle koeken</a>
       <product-list productAmount="4"></product-list>
+
+      <news-letter></news-letter>
     </main> `;
   }
 }
