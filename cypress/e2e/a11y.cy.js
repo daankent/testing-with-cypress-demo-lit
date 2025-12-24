@@ -1,4 +1,4 @@
-const pages = ["/"];
+const pages = ["/", "/koeken"];
 const sizes = ["iphone-6", "ipad-2", [1024, 768], "macbook-13", "samsung-s10"];
 
 describe("Axe Test all pages", () => {

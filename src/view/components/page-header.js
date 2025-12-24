@@ -12,7 +12,7 @@ export class PageHeader extends LitElement {
 
     header {
       width: 100%;
-      background-color: lightblue;
+      background-color: #e1712b;
       display: flex;
       flex-direction: row;
       padding: 1rem;
@@ -24,7 +24,8 @@ export class PageHeader extends LitElement {
 
     a {
       text-decoration: none;
-      color: darkorange;
+      color: #432004;
+      font-weight: bold;
     }
 
     nav {
@@ -36,7 +37,7 @@ export class PageHeader extends LitElement {
     }
 
     nav a:hover {
-      color: orangered;
+      color: #1c69a8;
     }
   `;
 

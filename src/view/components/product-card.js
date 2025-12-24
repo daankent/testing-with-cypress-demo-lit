@@ -16,7 +16,7 @@ export class ProductCard extends LitElement {
 
     h2 {
       font-size: 1.5rem;
-      color: orange;
+      color: #e1712b;
     }
 
     article {

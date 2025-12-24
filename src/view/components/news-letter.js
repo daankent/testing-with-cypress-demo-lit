@@ -28,12 +28,12 @@ export class NewsLetter extends LitElement {
 
     h1 {
       font-size: 1.25rem;
-      color: darkorange;
+      color: #e1712b;
     }
 
     h2 {
       font-size: 1rem;
-      color: orange;
+      color: #1c69a8;
     }
 
     form {
@@ -43,11 +43,11 @@ export class NewsLetter extends LitElement {
     input {
       border-radius: 0.5rem;
       padding: 0.5rem;
-      border: 2px solid lightblue;
+      border: 2px solid #1c69a8;
     }
 
     label {
-      color: orangered;
+      color: #1c69a8;
       font-weight: bold;
     }
 

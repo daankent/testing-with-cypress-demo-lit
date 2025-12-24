@@ -8,7 +8,7 @@ export class PageTitle extends LitElement {
   static styles = css`
     h1 {
       font-size: 1.75rem;
-      color: darkorange;
+      color: #e1712b;
     }
   `;
 

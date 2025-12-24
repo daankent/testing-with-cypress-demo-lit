@@ -15,7 +15,7 @@ export class HomePage extends LitElement {
     }
 
     h2 {
-      color: orange;
+      color: #1c69a8;
     }
   `;
 
