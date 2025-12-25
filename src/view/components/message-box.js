@@ -44,7 +44,9 @@ export class MessageBox extends LitElement {
   }
 
   render() {
-    return html` <section class="${this.type}"><slot>Message</slot></section> `;
+    return html`
+      <section class="${this.type}"><slot data-cy="message-box-content">Message</slot></section>
+    `;
   }
 }
 
