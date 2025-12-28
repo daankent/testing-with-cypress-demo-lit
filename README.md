@@ -109,11 +109,11 @@ Na het toevoegen van deze violationCallback zien mijn axe errors er als volgt ui
 
 In Cypress kun je fixtures maken, eigenlijk is een fixture niks meer dan een json bestand met mock data. Een fixture kun je in je tests gebruiken om de testdata te isoleren van de test. Een fixture kun je bijvoorbeeld gebruiken op consistent op meerdere plekken in verschillende tests dezelfde data te gebruiken. Ook kan je fixtures gebruiken om responses van api requests te forceren voor een test.
 
-Je gebruikte een fixture dus als data consistent moet zijn. Wanneer je variabelen heb die per test uniek moeten zijn is een fixture niet de juiste methode.
+Je gebruikte een fixture dus als data consistent moet zijn. Wanneer je variabelen hebt die per test uniek moeten zijn is een fixture niet de juiste methode.
 
 In dit demo project worden er bijvoorbeeld bij het testen van de check dit controleerd of een email al bestaat in de "database" een fixture gebruikt, zo is er bekend welk email adress er bij het api request wordt teruggegeven.
 
-In deze demo is het gebruik van fixtures terug te zien in ******\_******
+In deze demo is het gebruik van fixtures terug te zien in **\*\***\_**\*\***
 
 ### Network request stubbing
 
@@ -121,4 +121,4 @@ In deze demo is het gebruik van fixtures terug te zien in ******\_******
 
 In Cypress heb je de mogelijkheid om api-request van de applicatie die je test te onderscheppen. Ze worden dan niet verder gestuurd naar de locatie waar ze origineel heen werden gestuurd. Je heb vervolgens de mogelijkheid om mock data terug te geven, bijvoorbeeld doormiddel van een fixture. Zo kan je snel en voorspelbaar data teruggeven bij een api-request en hier voorspelebare test voor schrijven. Het heeft ook als voordeel dat er niet bij elke test naar een echt backend een verzoek wordt gedaan, hierdoor wordt er tijd bespaard. Ook zorgt het voor meer determinisme omdat je controle hebt over de data. Met network stubbing kun je ook makkelijk edge-cases zoals een server die niet te bereiken is simuleren.
 
-Network stubbing is in dit project terug te zien in ****\_\_\_****
+Network stubbing is in dit project terug te zien in \***\*\_\_\_\*\***
