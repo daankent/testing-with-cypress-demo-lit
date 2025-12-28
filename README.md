@@ -1,6 +1,8 @@
 # Cypress Demo in Lit
 
-Dit demo project dient ter ondersteuning van de poster over frontend testing met Cypress. De volgende testmethoden worden in dit demo project gebruikt:
+Dit demo project dient ter ondersteuning van de poster over frontend testing met Cypress. Meer infomaratie over de poster en zijn inhoud vind je in de [bijbehorende poster bijlage op github gist](https://gist.github.com/daankent/664bdc079b8e3966844540120d0d74b6).
+
+De volgende testmethoden worden in dit demo project gebruikt:
 
 - [End-to-end testing](#end-to-end-testing)
 - [Component testing](#component-testing)
