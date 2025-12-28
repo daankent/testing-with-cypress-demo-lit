@@ -3,13 +3,14 @@ import "./product-card";
 import { LitElement, css, html } from "lit";
 
 export class ProductList extends LitElement {
-  constructor() {
-    super();
-  }
-
   static properties = {
     productAmount: { type: Number },
   };
+
+  constructor() {
+    super();
+    this.productAmount = 1;
+  }
 
   static styles = css`
     * {
