@@ -10,6 +10,7 @@ Daarnaast worden ook andere Cypress features gebruikt waar mogelijk wat uitleg b
 
 - [Fixtures](#fixtures)
 - [Network request stubbing](#network-request-stubbing)
+- [Custom commands](#custom-commands)
 
 ## End-to-end testing
 
@@ -122,3 +123,11 @@ In deze demo is het gebruik van fixtures terug te zien in **\*\***\_**\*\***
 In Cypress heb je de mogelijkheid om api-request van de applicatie die je test te onderscheppen. Ze worden dan niet verder gestuurd naar de locatie waar ze origineel heen werden gestuurd. Je heb vervolgens de mogelijkheid om mock data terug te geven, bijvoorbeeld doormiddel van een fixture. Zo kan je snel en voorspelbaar data teruggeven bij een api-request en hier voorspelebare test voor schrijven. Het heeft ook als voordeel dat er niet bij elke test naar een echt backend een verzoek wordt gedaan, hierdoor wordt er tijd bespaard. Ook zorgt het voor meer determinisme omdat je controle hebt over de data. Met network stubbing kun je ook makkelijk edge-cases zoals een server die niet te bereiken is simuleren.
 
 Network stubbing is in dit project terug te zien in \***\*\_\_\_\*\***
+
+### Custom Commands
+
+[Cypress documentatie over custom commands](https://docs.cypress.io/api/cypress-api/custom-commands)
+
+Cypress bevat van zichzelf al heel wat commands die je kan gebruiken om te testen. Maar soms doen deze niet precies wat jij wilt, of heb je een aantal commands die je vaak achter elkaar uitvoert. Het zou dan handig zijn om een command aan te passen of er zelf een te maken. Cypress geeft je de optie om dit te doen. Custom commands plaats je in `cypress/support/commands.js` (dit is geen eis maar wel een vaak gebruikte manier die zorgt voor duidelijkheid).
+
+In het demo project is bijvoorbeeld `getDataCy` aanwezig, die de standaard `get` aanroept met als parameter een data-cy tag. Zo hoef je niet telkens `[data-cy="tag"]` te typen.
