@@ -1,6 +1,7 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
+  projectId: 'amqp8c',
   e2e: {
     setupNodeEvents(on, config) {
       on("task", {
