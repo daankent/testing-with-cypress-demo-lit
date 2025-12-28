@@ -6,6 +6,11 @@ Dit demo project dient ter ondersteuning van de poster over frontend testing met
 - [Component testing](#component-testing)
 - [Accessibility testing (met onderandere AXE)](#accessibility)
 
+Daarnaast worden ook andere Cypress features gebruikt waar mogelijk wat uitleg bij nodig is:
+
+- [Fixtures](#fixtures)
+- [Network request stubbing](#network-request-stubbing)
+
 ## End-to-end testing
 
 Bij E2E testen controlleer je de werking van een volledige applicatie door het gedrag van een echte gebruiker te simuleren, vanaf de eerste tot de laatste actie. Je kan Cypress onderandere tussen pagina's laten navigeren, op knoppen laten drukken, laten typen, api requests laten opvangen/simulieren en nog veel meer. Hiermee valideer je dat alle componenten goed met elkaar samen werken. Je test dus niet alleen de frontend zelf, maar ook hoe deze samenwerkt met de backend en database en eventuele andere onderdelen. E2E testen geeft ten opzicht van de andere genoemde test opties met de grootste zekerheid aan dan een applicatie klaar is voor eindgebruikers.
@@ -95,3 +100,25 @@ Mijn eigen implemntatie van een violationCallback gebasseerd op de documentatie 
 
 Na het toevoegen van deze violationCallback zien mijn axe errors er als volgt uit:
 ![Afbeelding van Axe error bericht in de cypress ui inclusief uitgebreide informatie over de violation](assets/duidelijke-error.png)
+
+## Gebruikte Cypress Features
+
+### Fixtures
+
+[Fixtures in de Cypress documentatie](https://docs.cypress.io/api/commands/fixture)
+
+In Cypress kun je fixtures maken, eigenlijk is een fixture niks meer dan een json bestand met mock data. Een fixture kun je in je tests gebruiken om de testdata te isoleren van de test. Een fixture kun je bijvoorbeeld gebruiken op consistent op meerdere plekken in verschillende tests dezelfde data te gebruiken. Ook kan je fixtures gebruiken om responses van api requests te forceren voor een test.
+
+Je gebruikte een fixture dus als data consistent moet zijn. Wanneer je variabelen heb die per test uniek moeten zijn is een fixture niet de juiste methode.
+
+In dit demo project worden er bijvoorbeeld bij het testen van de check dit controleerd of een email al bestaat in de "database" een fixture gebruikt, zo is er bekend welk email adress er bij het api request wordt teruggegeven.
+
+In deze demo is het gebruik van fixtures terug te zien in ******\_******
+
+### Network request stubbing
+
+[Stubbing in de Cypress documentatie](https://docs.cypress.io/api/commands/intercept#Stubbing-a-response)
+
+In Cypress heb je de mogelijkheid om api-request van de applicatie die je test te onderscheppen. Ze worden dan niet verder gestuurd naar de locatie waar ze origineel heen werden gestuurd. Je heb vervolgens de mogelijkheid om mock data terug te geven, bijvoorbeeld doormiddel van een fixture. Zo kan je snel en voorspelbaar data teruggeven bij een api-request en hier voorspelebare test voor schrijven. Het heeft ook als voordeel dat er niet bij elke test naar een echt backend een verzoek wordt gedaan, hierdoor wordt er tijd bespaard. Ook zorgt het voor meer determinisme omdat je controle hebt over de data. Met network stubbing kun je ook makkelijk edge-cases zoals een server die niet te bereiken is simuleren.
+
+Network stubbing is in dit project terug te zien in ****\_\_\_****
