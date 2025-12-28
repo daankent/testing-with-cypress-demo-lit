@@ -100,4 +100,12 @@ describe("Test the homepage flow", () => {
 
     cy.getDataCy("homepage-product-list").find("[data-cy='product-card']").should("have.length", 4);
   });
+
+  it("Clicking all products link should redirect to /koeken", () => {
+    cy.visit(appUrl);
+
+    cy.getDataCy("all-koeken-link").click();
+
+    cy.location("pathname").should("eq", "/koeken");
+  });
 });

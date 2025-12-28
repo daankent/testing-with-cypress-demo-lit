@@ -24,7 +24,7 @@ export class HomePage extends LitElement {
       <page-title>Welkom bij Daan's koekenbakkerij</page-title>
       <h2>Populaire koeken</h2>
       <p>Onze best verkopende koeken</p>
-      <a href="/koeken">Bekijk alle koeken</a>
+      <a href="/koeken" data-cy="all-koeken-link">Bekijk alle koeken</a>
       <product-list productAmount="4" data-cy="homepage-product-list"></product-list>
 
       <news-letter></news-letter>
