@@ -3,6 +3,18 @@ import "../../src/view/components/message-box";
 import { html } from "lit";
 
 describe("Check Type", () => {
+  it("Axe test Success message", () => {
+    cy.mount(html`<message-box data-cy="test-message-box" type="success"></message-box>`);
+    cy.injectAxe();
+    cy.checkComponentA11yWithUi();
+  });
+
+  it("Axe test Error message", () => {
+    cy.mount(html`<message-box data-cy="test-message-box" type="Error"></message-box>`);
+    cy.injectAxe();
+    cy.checkComponentA11yWithUi();
+  });
+
   it("Background is green when type is succes", () => {
     cy.mount(html`<message-box data-cy="test-message-box" type="success"></message-box>`);
     cy.getDataCy("test-message-box")
