@@ -86,7 +86,7 @@ export class NewsLetter extends LitElement {
         <h1>Inschrijven voor de nieuwsbrief</h1>
         <h2>Krijg wekelijkse updates over de lekkerste koeken.</h2>
         ${this.message.type
-          ? html`<message-box type=${this.message.type.toString()}
+          ? html`<message-box data-cy="newsletter-message-box" type=${this.message.type.toString()}
               >${this.message.message}</message-box
             > `
           : nothing}
@@ -94,10 +94,10 @@ export class NewsLetter extends LitElement {
         <form @submit=${this.handleSubmit}>
           <fieldset>
             <label for="email">E-mailadres</label>
-            <input name="email" id="email" type="email" value="" required />
+            <input name="email" id="email" type="email" value="" required data-cy="email-input" />
           </fieldset>
 
-          <submit-button text="Inschrijven"></submit-button>
+          <submit-button text="Inschrijven" data-cy="subscribe-button"></submit-button>
         </form>
       </section>
     `;

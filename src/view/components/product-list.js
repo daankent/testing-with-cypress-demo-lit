@@ -43,12 +43,12 @@ export class ProductList extends LitElement {
 
   render() {
     const koeken = [...Array(this.productAmount).keys()];
-    return html`<section>
-      <section class="list">
-        ${koeken.map((koek) => {
-          return html` <product-card productName=${"Koek " + koek}></product-card> `;
-        })}
-      </section>
+    return html` <section class="list">
+      ${koeken.map((koek) => {
+        return html`
+          <product-card data-cy="product-card" productName=${"Koek " + koek}></product-card>
+        `;
+      })}
     </section>`;
   }
 }

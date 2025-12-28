@@ -24,7 +24,7 @@ export class MessageBox extends LitElement {
     }
 
     .success {
-      background-color: #00ff0040;
+      background-color: #00ff0020;
       border-color: green;
       color: green;
     }
@@ -44,9 +44,7 @@ export class MessageBox extends LitElement {
   }
 
   render() {
-    return html`
-      <section class="${this.type}"><slot data-cy="message-box-content">Message</slot></section>
-    `;
+    return html` <section class="${this.type}"><slot>Message</slot></section> `;
   }
 }
 
