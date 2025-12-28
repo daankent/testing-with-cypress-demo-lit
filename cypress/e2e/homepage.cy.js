@@ -44,7 +44,7 @@ describe("Test the homepage flow", () => {
       "Error: Je bent al geabboneerd op de nieuwsbrief"
     );
 
-    // A11y van de popup checken;
+    // Check accessibility of the message that is displayed
     cy.checkA11yWithUi();
   });
 
