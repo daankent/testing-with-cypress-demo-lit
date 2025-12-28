@@ -149,6 +149,7 @@ Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project
 - Deschryver, T., & Deschryver, T. (2025b, December 27). _Setting up Cypress with axe for accessibility_. Tim Deschryver. <https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#different-screen-resolutions>
 - _Detecting accessibility issues on CI with cypress-axe_. (2020, October 6). Artem Sapegin. <https://sapegin.me/blog/detecting-accessibility-issues-on-ci-with-cypress-axe/>
 - Deyaa. (n.d.). cypress check color of css background. _Stack Overflow_. <https://stackoverflow.com/questions/70740557/cypress-check-color-of-css-background>
+- Erdem Gonul. _“Balancing Manual and Automated Frontend Testing.”_ Medium, Trendyol Tech, 28 Apr. 2025, <https://medium.com/trendyol-tech/balancing-manual-and-automated-frontend-testing-2d2d9c1f3eb9>. Accessed 28 Dec. 2025.
 - _fixture | Cypress Documentation | Cypress Documentation_. (2025, January 14). <https://docs.cypress.io/api/commands/fixture>
 - _intercept | Cypress Documentation | Cypress Documentation_. (2025, January 16). <https://docs.cypress.io/api/commands/intercept#Stubbing-a-response>
 - _Network Requests: Cypress Guide | Cypress Documentation_. (2025, August 5). <https://docs.cypress.io/app/guides/network-requests>
@@ -159,3 +160,4 @@ Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project
 - Typicode. (n.d.). _GitHub - typicode/json-server: Get a full fake REST API with zero coding in less than 30 seconds (seriously)_. GitHub. <https://github.com/typicode/json-server>
 - _Vaadin router_. (n.d.). S3-kennisbank. <https://s3-kennisbank.tomkemper.nl/frontend/mpa-spa/vaadin-router.html>
 - _viewport | Cypress Documentation | Cypress Documentation_. (2025, May 20). <https://docs.cypress.io/api/commands/viewport>
+- Walmyr. (2025, July 30). _10 reasons why you should use Cypress for web testing automation._ DEV Community. https://dev.to/walmyrlimaesilv/10-reasons-why-you-should-use-cypress-for-web-testing-automation-jlb
