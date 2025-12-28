@@ -133,3 +133,29 @@ Network stubbing is in het demo project terug te zien in `homepage.cy.js` in ond
 Cypress bevat van zichzelf al heel wat commands die je kan gebruiken om te testen. Maar soms doen deze niet precies wat jij wilt, of heb je een aantal commands die je vaak achter elkaar uitvoert. Het zou dan handig zijn om een command aan te passen of er zelf een te maken. Cypress geeft je de optie om dit te doen. Custom commands plaats je in `cypress/support/commands.js` (dit is geen eis maar wel een vaak gebruikte manier die zorgt voor duidelijkheid).
 
 In het demo project is bijvoorbeeld `getDataCy` aanwezig, die de standaard `get` aanroept met als parameter een data-cy tag. Zo hoef je niet telkens `[data-cy="tag"]` te typen.
+
+## Bronnen
+
+Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project. Bronvermelding is met scribbr gegenereerd.
+
+- _Best Practices | Cypress Documentation_. (2025, December 5). <https://docs.cypress.io/app/core-concepts/best-practices>
+- Bigdragon. (n.d.). Where to store API URL in Cypress? _Stack Overflow_. <https://stackoverflow.com/questions/55810280/where-to-store-api-url-in-cypress>
+- _Bothi Palani. “Web Accessibility Testing Using Axe & Cypress.io and Create Csv Report."_ Medium, 26 Sept. 2023, <https://bothees.medium.com/web-accessibility-testing-using-axe-cypress-io-and-create-csv-report-da7dae7faf36>. Accessed 28 Dec. 2025.
+- Component-Driven. (n.d.-a). _GitHub - component-driven/cypress-axe: Test accessibility with axe-core in Cypress_. GitHub. <https://github.com/component-driven/cypress-axe>
+- Component-Driven. (n.d.-b). _Using the violationcallback argument_. GitHub. <https://github.com/component-driven/cypress-axe?tab=readme-ov-file#using-the-violationcallback-argument>
+- _Custom Commands in Cypress | Cypress Documentation_. (2025, October 10). <https://docs.cypress.io/api/cypress-api/custom-commands>
+- Cypress Documenatie: <https://docs.cypress.io/>
+- Deschryver, T., & Deschryver, T. (2025a, December 27). _Setting up Cypress with axe for accessibility_. Tim Deschryver. <https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#automating-a-whole-website>
+- Deschryver, T., & Deschryver, T. (2025b, December 27). _Setting up Cypress with axe for accessibility_. Tim Deschryver. <https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#different-screen-resolutions>
+- _Detecting accessibility issues on CI with cypress-axe_. (2020, October 6). Artem Sapegin. <https://sapegin.me/blog/detecting-accessibility-issues-on-ci-with-cypress-axe/>
+- Deyaa. (n.d.). cypress check color of css background. _Stack Overflow_. <https://stackoverflow.com/questions/70740557/cypress-check-color-of-css-background>
+- _fixture | Cypress Documentation | Cypress Documentation_. (2025, January 14). <https://docs.cypress.io/api/commands/fixture>
+- _intercept | Cypress Documentation | Cypress Documentation_. (2025, January 16). <https://docs.cypress.io/api/commands/intercept#Stubbing-a-response>
+- _Network Requests: Cypress Guide | Cypress Documentation_. (2025, August 5). <https://docs.cypress.io/app/guides/network-requests>
+- Redfox-Mx. (n.d.). _GitHub - redfox-mx/cypress-lit: Browser-based Component Testing for Lit with Cypress.io_. GitHub. <https://github.com/redfox-mx/cypress-lit>
+- SeanPlusPlus. (n.d.). Testing a redirect to a new route with Cypress. _Stack Overflow_. <https://stackoverflow.com/questions/46839520/testing-a-redirect-to-a-new-route-with-cypress>
+- _Stubs, Spies, and Clocks: Cypress Guide | Cypress Documentation_. (2025, January 14). <https://docs.cypress.io/app/guides/stubs-spies-and-clocks>
+- _task | Cypress Documentation | Cypress Documentation_. (2025, December 5). <https://docs.cypress.io/api/commands/task>
+- Typicode. (n.d.). _GitHub - typicode/json-server: Get a full fake REST API with zero coding in less than 30 seconds (seriously)_. GitHub. <https://github.com/typicode/json-server>
+- _Vaadin router_. (n.d.). S3-kennisbank. <https://s3-kennisbank.tomkemper.nl/frontend/mpa-spa/vaadin-router.html>
+- _viewport | Cypress Documentation | Cypress Documentation_. (2025, May 20). <https://docs.cypress.io/api/commands/viewport>
