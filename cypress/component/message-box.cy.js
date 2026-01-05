@@ -2,7 +2,7 @@ import "../../src/view/components/message-box";
 
 import { html } from "lit";
 
-describe("Check Type", () => {
+describe("Message box component tests", () => {
   it("Axe test Success message", () => {
     cy.mount(html`<message-box data-cy="test-message-box" type="success"></message-box>`);
     cy.injectAxe();

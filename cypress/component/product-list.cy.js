@@ -2,7 +2,7 @@ import "../../src/view/components/product-list";
 
 import { html } from "lit";
 
-describe("Check Type", () => {
+describe("Cookie product list component tests", () => {
   it("Axe test product list", () => {
     cy.mount(html`<product-list productAmount="2"></product-list>`);
     cy.injectAxe();
