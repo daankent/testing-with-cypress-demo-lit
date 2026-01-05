@@ -8,7 +8,9 @@
     "db": "npx json-server db.json",
     "test": "npx cypress open",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cy:open:e2e": "cypress open --e2e",
+    "cy:open:ct": "cypress open --component"
   },
   "dependencies": {
     "@vaadin/router": "^2.0.1",

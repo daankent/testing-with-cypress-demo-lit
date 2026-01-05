@@ -1,7 +1,7 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
-  projectId: 'amqp8c',
+  projectId: "amqp8c",
   e2e: {
     setupNodeEvents(on, config) {
       on("task", {
@@ -24,6 +24,20 @@ export default defineConfig({
       framework: "cypress-ct-lit",
       bundler: "vite", // or 'webpack'
       // more config here
+    },
+    setupNodeEvents(on, config) {
+      on("task", {
+        log(message) {
+          console.log(message);
+
+          return null;
+        },
+        table(message) {
+          console.table(message);
+
+          return null;
+        },
+      });
     },
   },
 });
