@@ -14,6 +14,17 @@ Daarnaast worden ook andere Cypress features gebruikt waar mogelijk wat uitleg b
 - [Network request stubbing](#network-request-stubbing)
 - [Custom commands](#custom-commands)
 
+## Demo draaien
+
+Om de demo te draaien moet je een aantal stappen volgen:
+
+1. Clone deze repository
+2. Voer `npm install` uit om alle packages te installeren.
+3. Om de json database op te starten voer je `npm run db` uit.
+4. Om de demo applicatie te starten voer je `npm run dev` uit.
+5. Om Cypress te starten voer je `npm run test` uit.
+6. Nu kun je via Cypress tests draaien.
+
 ## End-to-end testing
 
 Bij E2E testen controlleer je de werking van een volledige applicatie door het gedrag van een echte gebruiker te simuleren, vanaf de eerste tot de laatste actie. Je kan Cypress onderandere tussen pagina's laten navigeren, op knoppen laten drukken, laten typen, api requests laten opvangen/simulieren en nog veel meer. Hiermee valideer je dat alle componenten goed met elkaar samen werken. Je test dus niet alleen de frontend zelf, maar ook hoe deze samenwerkt met de backend en database en eventuele andere onderdelen. E2E testen geeft ten opzicht van de andere genoemde test opties met de grootste zekerheid aan dan een applicatie klaar is voor eindgebruikers.
