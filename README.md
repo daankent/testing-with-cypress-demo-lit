@@ -149,6 +149,7 @@ In het demo project is bijvoorbeeld `getDataCy` aanwezig, die de standaard `get`
 
 Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project. Bronvermelding is met scribbr gegenereerd.
 
+- Automated Testing vs. Manual Testing: Pros and Cons for QA Teams. (2024, 4 mei). <https://whitespace.dev/articles/automated-testing-vs-manual-testing-pros-and-cons-for-qa-teams>
 - _Best Practices | Cypress Documentation_. (2025, December 5). <https://docs.cypress.io/app/core-concepts/best-practices>
 - Bigdragon. (n.d.). Where to store API URL in Cypress? _Stack Overflow_. <https://stackoverflow.com/questions/55810280/where-to-store-api-url-in-cypress>
 - _Bothi Palani. “Web Accessibility Testing Using Axe & Cypress.io and Create Csv Report."_ Medium, 26 Sept. 2023, <https://bothees.medium.com/web-accessibility-testing-using-axe-cypress-io-and-create-csv-report-da7dae7faf36>. Accessed 28 Dec. 2025.
@@ -168,7 +169,9 @@ Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project
 - SeanPlusPlus. (n.d.). Testing a redirect to a new route with Cypress. _Stack Overflow_. <https://stackoverflow.com/questions/46839520/testing-a-redirect-to-a-new-route-with-cypress>
 - _Stubs, Spies, and Clocks: Cypress Guide | Cypress Documentation_. (2025, January 14). <https://docs.cypress.io/app/guides/stubs-spies-and-clocks>
 - _task | Cypress Documentation | Cypress Documentation_. (2025, December 5). <https://docs.cypress.io/api/commands/task>
+- Team, Q. E. (2025, 6 augustus). What are the limitations of automated testing? - QASource. QASource. <https://blog.qasource.com/resources/what-are-the-limitations-of-automation-testing>
 - Typicode. (n.d.). _GitHub - typicode/json-server: Get a full fake REST API with zero coding in less than 30 seconds (seriously)_. GitHub. <https://github.com/typicode/json-server>
 - _Vaadin router_. (n.d.). S3-kennisbank. <https://s3-kennisbank.tomkemper.nl/frontend/mpa-spa/vaadin-router.html>
 - _viewport | Cypress Documentation | Cypress Documentation_. (2025, May 20). <https://docs.cypress.io/api/commands/viewport>
 - Walmyr. (2025, July 30). _10 reasons why you should use Cypress for web testing automation._ DEV Community. https://dev.to/walmyrlimaesilv/10-reasons-why-you-should-use-cypress-for-web-testing-automation-jlb
+- Xperts, T., & Xperts, T. (2025, 30 december). Cypress Automation: 11 Key Benefits for DevOps-DrivenTeams. TestingXperts. <https://www.testingxperts.com/blog/cypress-automation>
