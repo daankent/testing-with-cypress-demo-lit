@@ -158,6 +158,7 @@ In het demo project is bijvoorbeeld `getDataCy` aanwezig, die de standaard `get`
 
 Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project. Bronvermelding is met scribbr gegenereerd.
 
+- Aceska, E. (2025, 23 juli). Cypress Testing: What is It and Why is It Important? TestDevLab Blog. <https://www.testdevlab.com/blog/what-is-cypress-testing>
 - Automated Testing vs. Manual Testing: Pros and Cons for QA Teams. (2024, 4 mei). <https://whitespace.dev/articles/automated-testing-vs-manual-testing-pros-and-cons-for-qa-teams>
 - _Best Practices | Cypress Documentation_. (2025, December 5). <https://docs.cypress.io/app/core-concepts/best-practices>
 - Bigdragon. (n.d.). Where to store API URL in Cypress? _Stack Overflow_. <https://stackoverflow.com/questions/55810280/where-to-store-api-url-in-cypress>
