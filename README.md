@@ -174,7 +174,9 @@ Bronnen die ik gebruikt heb tijdens het werken aan de poster en het demo project
 - _fixture | Cypress Documentation | Cypress Documentation_. (2025, January 14). <https://docs.cypress.io/api/commands/fixture>
 - _intercept | Cypress Documentation | Cypress Documentation_. (2025, January 16). <https://docs.cypress.io/api/commands/intercept#Stubbing-a-response>
 - _Network Requests: Cypress Guide | Cypress Documentation_. (2025, August 5). <https://docs.cypress.io/app/guides/network-requests>
+- Powell, P., & Smalley, I. (2025, 24 november). End-to-end (E2E) testing. IBM. <https://www.ibm.com/think/topics/end-to-end-testing>
 - Redfox-Mx. (n.d.). _GitHub - redfox-mx/cypress-lit: Browser-based Component Testing for Lit with Cypress.io_. GitHub. <https://github.com/redfox-mx/cypress-lit>
+- Schmitt, J. (2022, 5 oktober). Component testing vs unit testing. CircleCI. <https://circleci.com/blog/component-vs-unit-testing/>
 - SeanPlusPlus. (n.d.). Testing a redirect to a new route with Cypress. _Stack Overflow_. <https://stackoverflow.com/questions/46839520/testing-a-redirect-to-a-new-route-with-cypress>
 - _Stubs, Spies, and Clocks: Cypress Guide | Cypress Documentation_. (2025, January 14). <https://docs.cypress.io/app/guides/stubs-spies-and-clocks>
 - _task | Cypress Documentation | Cypress Documentation_. (2025, December 5). <https://docs.cypress.io/api/commands/task>
