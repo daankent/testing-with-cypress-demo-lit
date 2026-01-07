@@ -93,6 +93,15 @@ Plaats de volgende inhoud in het bestand:
 Nu ben je klaar om components te gaan testen met lit.
 Hiervoor kun je wel de instructies volgende die door Cypress en cypress-ct-lit worden gegeven.
 
+Voorbeeld van een component test:
+
+```javascript
+it("Succes: When no message is passed the default 'Empty Message' is shown", () => {
+  cy.mount(html`<message-box data-cy="test-message-box" type="success"></message-box>`);
+  cy.getDataCy("test-message-box").find("section").should("contain", "Empty Message");
+});
+```
+
 ## Accessibility
 
 Accessibility wordt een steeds belangrijker ding op het web. Er zijn zelfs al Europese wetten zoals de European Accessibility Act die voorschrijven dat iedereen die producten of diensten levert aan consumenten in de EU moet voldoen aan toegankelijkheideisen.
